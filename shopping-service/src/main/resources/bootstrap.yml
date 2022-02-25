@@ -12,3 +12,6 @@ spring:
         url: http://localhost:8086
         instance:
           prefer-ip: true
+hystrix:
+  dashboard:
+    proxyStreamAllowList: "*"
